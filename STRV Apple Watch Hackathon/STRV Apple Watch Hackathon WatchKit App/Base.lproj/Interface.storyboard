@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
-        <!--Vyber spoj-->
+        <!--PRAHA HL. N.-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller title="Vyber spoj" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="STRV_Apple_Watch_Hackathon_WatchKit_App" customModuleProvider="target">
+                <controller title="PRAHA HL. N." id="AgC-eL-Hgc" customClass="InterfaceController" customModule="STRV_Apple_Watch_Hackathon_WatchKit_App" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="YzT-j8-9Oa">
                             <items>
@@ -66,6 +66,77 @@
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
+        <!--Detail-->
+        <scene sceneID="OKf-iV-vI2">
+            <objects>
+                <controller identifier="LinkDetail" title="Detail" id="jyG-4w-D31" customClass="LinkDetailIC" customModule="STRV_Apple_Watch_Hackathon_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="7IF-SL-00z">
+                            <items>
+                                <group width="1" alignment="left" layout="vertical" radius="4" id="jhM-AD-4D5">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Sledujte tento spoj" textAlignment="center" id="V5j-We-2G7">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                    </items>
+                                    <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
+                                <group width="1" alignment="left" spacing="4" id="P5g-oQ-FJD">
+                                    <items>
+                                        <group width="4" height="1" alignment="left" layout="vertical" radius="2" id="tny-65-LYv">
+                                            <color key="backgroundColor" red="0.2156862745" green="0.93725490199999995" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </group>
+                                        <label alignment="left" text="OS" id="tKt-BC-xCU"/>
+                                        <label alignment="left" text="S9 2539" id="Htp-aG-zOI">
+                                            <color key="textColor" red="0.49019607840000001" green="0.49019607840000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" spacing="4" id="Xze-Ub-nXj">
+                                    <items>
+                                        <label alignment="left" text="6J" id="ug9-se-rWg">
+                                            <fontDescription key="font" type="system" pointSize="26"/>
+                                        </label>
+                                        <label alignment="left" verticalAlignment="bottom" text="KOLEJ" id="mMI-LZ-hXi">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                        </label>
+                                        <label alignment="left" verticalAlignment="bottom" text="28J" id="u0g-Ks-hWU">
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" layout="vertical" radius="0.0" spacing="0.0" id="xgr-Ix-sdz">
+                                    <items>
+                                        <label alignment="left" text="13:37" id="QZO-nD-via">
+                                            <color key="textColor" red="0.0" green="0.68699234277972032" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
+                                        </label>
+                                        <label alignment="left" text="7m do odjezdu" id="VX3-4O-rxd">
+                                            <color key="textColor" red="0.0" green="0.68699234277972032" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label alignment="left" text="BENEŠOV U PRAHY" textAlignment="left" numberOfLines="0" id="FmH-9g-ewE">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="28"/>
+                                </label>
+                                <label alignment="left" text="Praha-Uhřiněves • Říčany • Strašnice • Senohraby • Čerčany" numberOfLines="0" id="7om-ik-Te6">
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="10"/>
+                        </group>
+                    </items>
+                    <menu key="menu" id="RUf-Jv-Y4K">
+                        <items>
+                            <menuItem title="Slodeovat spoj" icon="accept" id="xSy-xQ-KRk"/>
+                        </items>
+                    </menu>
+                    <edgeInsets key="margins" left="5" right="5" top="5" bottom="5"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="461" y="347"/>
+        </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
             <objects>
@@ -84,11 +155,11 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="left" text="Label" id="Y4x-Vi-Ta0"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <outlet property="notificationAlertLabel" destination="Y4x-Vi-Ta0" id="NLO-Bv-2dh"/>
                         <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
                     </connections>
                 </notificationController>
@@ -100,7 +171,7 @@
             <objects>
                 <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="STRV_Apple_Watch_Hackathon_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="447" y="1001"/>
         </scene>
     </scenes>
 </document>

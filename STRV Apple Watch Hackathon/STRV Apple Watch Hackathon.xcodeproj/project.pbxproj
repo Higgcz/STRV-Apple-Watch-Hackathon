@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B38E94B1AFE5BC900437423 /* LinkDetailIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38E94A1AFE5BC900437423 /* LinkDetailIC.swift */; };
 		2B8E39DB1AFE221C0031275E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39DA1AFE221C0031275E /* AppDelegate.swift */; };
 		2B8E39DD1AFE221C0031275E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39DC1AFE221C0031275E /* ViewController.swift */; };
 		2B8E39E01AFE221C0031275E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39DE1AFE221C0031275E /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B38E94A1AFE5BC900437423 /* LinkDetailIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkDetailIC.swift; sourceTree = "<group>"; };
 		2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STRV Apple Watch Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8E39D91AFE221C0031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B8E39DA1AFE221C0031275E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				2B8E3A231AFE317A0031275E /* MainRowType.swift */,
 				2B8E3A031AFE26750031275E /* InterfaceController.swift */,
+				2B38E94A1AFE5BC900437423 /* LinkDetailIC.swift */,
 				2B8E3A051AFE26750031275E /* NotificationController.swift */,
 				2B8E3A071AFE26750031275E /* GlanceController.swift */,
 				2B8E3A091AFE26750031275E /* Images.xcassets */,
@@ -403,6 +406,7 @@
 				2B8E3A061AFE26750031275E /* NotificationController.swift in Sources */,
 				2B8E3A2A1AFE3AE20031275E /* UIColorExt.swift in Sources */,
 				2B8E3A041AFE26750031275E /* InterfaceController.swift in Sources */,
+				2B38E94B1AFE5BC900437423 /* LinkDetailIC.swift in Sources */,
 				2B8E3A081AFE26750031275E /* GlanceController.swift in Sources */,
 				2B8E3A241AFE317A0031275E /* MainRowType.swift in Sources */,
 				2B8E3A271AFE36B60031275E /* Link.swift in Sources */,
@@ -667,6 +671,7 @@
 				2B8E39F61AFE221C0031275E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B8E39F71AFE221C0031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch HackathonTests" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +680,7 @@
 				2B8E39F91AFE221C0031275E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B8E3A1C1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -683,6 +689,7 @@
 				2B8E3A1E1AFE26750031275E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B8E3A1F1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -691,6 +698,7 @@
 				2B8E3A211AFE26750031275E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

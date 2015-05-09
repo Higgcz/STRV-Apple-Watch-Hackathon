@@ -47,44 +47,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if let request = userInfo?["request"] as? String where request == "downloadLinks"  {
             
-            let downloadedLinks = [
-                Link(
-                    place: "BENEŠOV U PRAHY",
-                    type: LinkType(type: 0),
-                    time: "16:07",
-                    number: "2549",
-                    platform: "4S",
-                    delay: 0),
-                Link(
-                    place: "BRNO HL.N.",
-                    type: LinkType(type: 2),
-                    time: "16:12",
-                    number: "987",
-                    platform: "7",
-                    delay: 10),
-                Link(
-                    place: "TŘINEC",
-                    type: LinkType(type: 1),
-                    time: "16:15",
-                    number: "155",
-                    platform: "5S",
-                    delay: 0),
-                Link(
-                    place: "PRAHA AIRPORT",
-                    type: LinkType(type: 3),
-                    time: "16:20",
-                    number: "41",
-                    platform: "B1",
-                    delay: 0),
-                Link(
-                    place: "PRAHA-VRŠOVICE",
-                    type: LinkType(type: 0),
-                    time: "16:23",
-                    number: "S3 9513",
-                    platform: "1J",
-                    delay: 0)]
-            
-            reply(["links": downloadedLinks])
+            reply(nil)
+//            reply(["links": downloadedLinks])
         }
         else {
             reply(nil)
