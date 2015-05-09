@@ -22,6 +22,10 @@
 		2B8E3A181AFE26750031275E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E3A171AFE26750031275E /* Images.xcassets */; };
 		2B8E3A1B1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B8E39FE1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B8E3A241AFE317A0031275E /* MainRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A231AFE317A0031275E /* MainRowType.swift */; };
+		2B8E3A261AFE36B30031275E /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A251AFE36B30031275E /* Link.swift */; };
+		2B8E3A271AFE36B60031275E /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A251AFE36B30031275E /* Link.swift */; };
+		2B8E3A291AFE3AE20031275E /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A281AFE3AE20031275E /* UIColorExt.swift */; };
+		2B8E3A2A1AFE3AE20031275E /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A281AFE3AE20031275E /* UIColorExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,8 @@
 		2B8E3A151AFE26750031275E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		2B8E3A171AFE26750031275E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B8E3A231AFE317A0031275E /* MainRowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRowType.swift; sourceTree = "<group>"; };
+		2B8E3A251AFE36B30031275E /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		2B8E3A281AFE3AE20031275E /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,8 @@
 			children = (
 				2B8E39DA1AFE221C0031275E /* AppDelegate.swift */,
 				2B8E39DC1AFE221C0031275E /* ViewController.swift */,
+				2B8E3A251AFE36B30031275E /* Link.swift */,
+				2B8E3A281AFE3AE20031275E /* UIColorExt.swift */,
 				2B8E39DE1AFE221C0031275E /* Main.storyboard */,
 				2B8E39E11AFE221C0031275E /* Images.xcassets */,
 				2B8E39E31AFE221C0031275E /* LaunchScreen.xib */,
@@ -373,6 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8E3A261AFE36B30031275E /* Link.swift in Sources */,
+				2B8E3A291AFE3AE20031275E /* UIColorExt.swift in Sources */,
 				2B8E39DD1AFE221C0031275E /* ViewController.swift in Sources */,
 				2B8E39DB1AFE221C0031275E /* AppDelegate.swift in Sources */,
 			);
@@ -391,9 +401,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8E3A061AFE26750031275E /* NotificationController.swift in Sources */,
+				2B8E3A2A1AFE3AE20031275E /* UIColorExt.swift in Sources */,
 				2B8E3A041AFE26750031275E /* InterfaceController.swift in Sources */,
 				2B8E3A081AFE26750031275E /* GlanceController.swift in Sources */,
 				2B8E3A241AFE317A0031275E /* MainRowType.swift in Sources */,
+				2B8E3A271AFE36B60031275E /* Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

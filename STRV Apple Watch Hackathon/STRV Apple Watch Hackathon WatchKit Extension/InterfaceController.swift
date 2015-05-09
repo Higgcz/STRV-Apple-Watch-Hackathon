@@ -13,31 +13,44 @@ class InterfaceController: WKInterfaceController {
     
     @IBOutlet weak var table: WKInterfaceTable!
     
+    var links = [Link]()
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        
+        let linksRequest = ["request": "downloadLinks"]
+        
+        WKInterfaceController.openParentApplication(linksRequest, reply: {
+            (dic, error) -> Void in
+            
+            if let error = error {
+                println(error.localizedDescription)
+            }
+            else if let downloadedLinks = dic?["links"] as? [Link] {
+                self.links = downloadedLinks
+            }
+            
+        })
+        
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         
-        let numberOfRows = 3
+        let numberOfRows = links.count
         
         table.setNumberOfRows(numberOfRows, withRowType: LinkRowTypeIdentifier)
         
-        if let cell = table.rowControllerAtIndex(1) as? MainRowType {
-            cell.linkDestinationPlace.setText("OSTRAVA HL. N.")
+        for row in 0..<numberOfRows {
+            
+            if let cell = table.rowControllerAtIndex(row) as? MainRowType {
+                cell.link = links[row]
+            }
+            
         }
-        
-//        
-//        for row in 0..<numberOfRows {
-//        
-//            
-//        }
-        
         
     }
 
