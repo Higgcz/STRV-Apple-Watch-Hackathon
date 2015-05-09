@@ -13,6 +13,15 @@
 		2B8E39E21AFE221C0031275E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39E11AFE221C0031275E /* Images.xcassets */; };
 		2B8E39E51AFE221C0031275E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39E31AFE221C0031275E /* LaunchScreen.xib */; };
 		2B8E39F11AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39F01AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift */; };
+		2B8E3A041AFE26750031275E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A031AFE26750031275E /* InterfaceController.swift */; };
+		2B8E3A061AFE26750031275E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A051AFE26750031275E /* NotificationController.swift */; };
+		2B8E3A081AFE26750031275E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A071AFE26750031275E /* GlanceController.swift */; };
+		2B8E3A0A1AFE26750031275E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E3A091AFE26750031275E /* Images.xcassets */; };
+		2B8E3A0E1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E3A0D1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app */; };
+		2B8E3A161AFE26750031275E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E3A141AFE26750031275E /* Interface.storyboard */; };
+		2B8E3A181AFE26750031275E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E3A171AFE26750031275E /* Images.xcassets */; };
+		2B8E3A1B1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B8E39FE1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B8E3A241AFE317A0031275E /* MainRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A231AFE317A0031275E /* MainRowType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 2B8E39D41AFE221C0031275E;
 			remoteInfo = "STRV Apple Watch Hackathon";
 		};
+		2B8E3A0F1AFE26750031275E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8E39CD1AFE221C0031275E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8E3A0C1AFE26750031275E;
+			remoteInfo = "STRV Apple Watch Hackathon WatchKit App";
+		};
+		2B8E3A191AFE26750031275E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8E39CD1AFE221C0031275E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8E39FD1AFE26740031275E;
+			remoteInfo = "STRV Apple Watch Hackathon WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8E3A221AFE26750031275E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B8E3A1B1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STRV Apple Watch Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,18 @@
 		2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STRV Apple Watch HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8E39EF1AFE221C0031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B8E39F01AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRV_Apple_Watch_HackathonTests.swift; sourceTree = "<group>"; };
+		2B8E39FE1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "STRV Apple Watch Hackathon WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E3A011AFE26750031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E3A021AFE26750031275E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2B8E3A031AFE26750031275E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2B8E3A051AFE26750031275E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2B8E3A071AFE26750031275E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		2B8E3A091AFE26750031275E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8E3A0D1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STRV Apple Watch Hackathon WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E3A131AFE26750031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E3A151AFE26750031275E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2B8E3A171AFE26750031275E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8E3A231AFE317A0031275E /* MainRowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRowType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +102,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B8E39FB1AFE26740031275E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +117,8 @@
 			children = (
 				2B8E39D71AFE221C0031275E /* STRV Apple Watch Hackathon */,
 				2B8E39ED1AFE221C0031275E /* STRV Apple Watch HackathonTests */,
+				2B8E39FF1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit Extension */,
+				2B8E3A111AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App */,
 				2B8E39D61AFE221C0031275E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +128,8 @@
 			children = (
 				2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */,
 				2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */,
+				2B8E39FE1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex */,
+				2B8E3A0D1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +172,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2B8E39FF1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E3A231AFE317A0031275E /* MainRowType.swift */,
+				2B8E3A031AFE26750031275E /* InterfaceController.swift */,
+				2B8E3A051AFE26750031275E /* NotificationController.swift */,
+				2B8E3A071AFE26750031275E /* GlanceController.swift */,
+				2B8E3A091AFE26750031275E /* Images.xcassets */,
+				2B8E3A001AFE26750031275E /* Supporting Files */,
+			);
+			path = "STRV Apple Watch Hackathon WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2B8E3A001AFE26750031275E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E3A011AFE26750031275E /* Info.plist */,
+				2B8E3A021AFE26750031275E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8E3A111AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E3A141AFE26750031275E /* Interface.storyboard */,
+				2B8E3A171AFE26750031275E /* Images.xcassets */,
+				2B8E3A121AFE26750031275E /* Supporting Files */,
+			);
+			path = "STRV Apple Watch Hackathon WatchKit App";
+			sourceTree = "<group>";
+		};
+		2B8E3A121AFE26750031275E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E3A131AFE26750031275E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +222,12 @@
 				2B8E39D11AFE221C0031275E /* Sources */,
 				2B8E39D21AFE221C0031275E /* Frameworks */,
 				2B8E39D31AFE221C0031275E /* Resources */,
+				2B8E3A221AFE26750031275E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B8E3A1A1AFE26750031275E /* PBXTargetDependency */,
 			);
 			name = "STRV Apple Watch Hackathon";
 			productName = "STRV Apple Watch Hackathon";
@@ -150,6 +252,39 @@
 			productReference = 2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2B8E39FD1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E3A1F1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit Extension" */;
+			buildPhases = (
+				2B8E39FA1AFE26740031275E /* Sources */,
+				2B8E39FB1AFE26740031275E /* Frameworks */,
+				2B8E39FC1AFE26740031275E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8E3A101AFE26750031275E /* PBXTargetDependency */,
+			);
+			name = "STRV Apple Watch Hackathon WatchKit Extension";
+			productName = "STRV Apple Watch Hackathon WatchKit Extension";
+			productReference = 2B8E39FE1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		2B8E3A0C1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E3A1C1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit App" */;
+			buildPhases = (
+				2B8E3A0B1AFE26750031275E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STRV Apple Watch Hackathon WatchKit App";
+			productName = "STRV Apple Watch Hackathon WatchKit App";
+			productReference = 2B8E3A0D1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +300,12 @@
 					2B8E39E91AFE221C0031275E = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 2B8E39D41AFE221C0031275E;
+					};
+					2B8E39FD1AFE26740031275E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2B8E3A0C1AFE26750031275E = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -183,6 +324,8 @@
 			targets = (
 				2B8E39D41AFE221C0031275E /* STRV Apple Watch Hackathon */,
 				2B8E39E91AFE221C0031275E /* STRV Apple Watch HackathonTests */,
+				2B8E39FD1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension */,
+				2B8E3A0C1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +345,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E39FC1AFE26740031275E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E3A0A1AFE26750031275E /* Images.xcassets in Resources */,
+				2B8E3A0E1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E3A0B1AFE26750031275E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E3A161AFE26750031275E /* Interface.storyboard in Resources */,
+				2B8E3A181AFE26750031275E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +386,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B8E39FA1AFE26740031275E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E3A061AFE26750031275E /* NotificationController.swift in Sources */,
+				2B8E3A041AFE26750031275E /* InterfaceController.swift in Sources */,
+				2B8E3A081AFE26750031275E /* GlanceController.swift in Sources */,
+				2B8E3A241AFE317A0031275E /* MainRowType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +404,16 @@
 			isa = PBXTargetDependency;
 			target = 2B8E39D41AFE221C0031275E /* STRV Apple Watch Hackathon */;
 			targetProxy = 2B8E39EB1AFE221C0031275E /* PBXContainerItemProxy */;
+		};
+		2B8E3A101AFE26750031275E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8E3A0C1AFE26750031275E /* STRV Apple Watch Hackathon WatchKit App */;
+			targetProxy = 2B8E3A0F1AFE26750031275E /* PBXContainerItemProxy */;
+		};
+		2B8E3A1A1AFE26750031275E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8E39FD1AFE26740031275E /* STRV Apple Watch Hackathon WatchKit Extension */;
+			targetProxy = 2B8E3A191AFE26750031275E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +432,14 @@
 				2B8E39E41AFE221C0031275E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2B8E3A141AFE26750031275E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8E3A151AFE26750031275E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +580,62 @@
 			};
 			name = Release;
 		};
+		2B8E3A1D1AFE26750031275E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = STRV_Apple_Watch_Hackathon_WatchKit_Extension;
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		2B8E3A1E1AFE26750031275E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = STRV_Apple_Watch_Hackathon_WatchKit_Extension;
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		2B8E3A201AFE26750031275E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B8E3A211AFE26750031275E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +661,22 @@
 			buildConfigurations = (
 				2B8E39F81AFE221C0031275E /* Debug */,
 				2B8E39F91AFE221C0031275E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B8E3A1C1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E3A1D1AFE26750031275E /* Debug */,
+				2B8E3A1E1AFE26750031275E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B8E3A1F1AFE26750031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E3A201AFE26750031275E /* Debug */,
+				2B8E3A211AFE26750031275E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
