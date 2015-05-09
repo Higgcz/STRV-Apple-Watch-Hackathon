@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8E39DB1AFE221C0031275E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39DA1AFE221C0031275E /* AppDelegate.swift */; };
+		2B8E39DD1AFE221C0031275E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39DC1AFE221C0031275E /* ViewController.swift */; };
+		2B8E39E01AFE221C0031275E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39DE1AFE221C0031275E /* Main.storyboard */; };
+		2B8E39E21AFE221C0031275E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39E11AFE221C0031275E /* Images.xcassets */; };
+		2B8E39E51AFE221C0031275E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E39E31AFE221C0031275E /* LaunchScreen.xib */; };
+		2B8E39F11AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E39F01AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8E39EB1AFE221C0031275E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8E39CD1AFE221C0031275E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8E39D41AFE221C0031275E;
+			remoteInfo = "STRV Apple Watch Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STRV Apple Watch Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E39D91AFE221C0031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E39DA1AFE221C0031275E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B8E39DC1AFE221C0031275E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B8E39DF1AFE221C0031275E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B8E39E11AFE221C0031275E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8E39E41AFE221C0031275E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STRV Apple Watch HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E39EF1AFE221C0031275E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E39F01AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRV_Apple_Watch_HackathonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8E39D21AFE221C0031275E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E39E71AFE221C0031275E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8E39CC1AFE221C0031275E = {
+			isa = PBXGroup;
+			children = (
+				2B8E39D71AFE221C0031275E /* STRV Apple Watch Hackathon */,
+				2B8E39ED1AFE221C0031275E /* STRV Apple Watch HackathonTests */,
+				2B8E39D61AFE221C0031275E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8E39D61AFE221C0031275E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */,
+				2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8E39D71AFE221C0031275E /* STRV Apple Watch Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E39DA1AFE221C0031275E /* AppDelegate.swift */,
+				2B8E39DC1AFE221C0031275E /* ViewController.swift */,
+				2B8E39DE1AFE221C0031275E /* Main.storyboard */,
+				2B8E39E11AFE221C0031275E /* Images.xcassets */,
+				2B8E39E31AFE221C0031275E /* LaunchScreen.xib */,
+				2B8E39D81AFE221C0031275E /* Supporting Files */,
+			);
+			path = "STRV Apple Watch Hackathon";
+			sourceTree = "<group>";
+		};
+		2B8E39D81AFE221C0031275E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E39D91AFE221C0031275E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8E39ED1AFE221C0031275E /* STRV Apple Watch HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E39F01AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift */,
+				2B8E39EE1AFE221C0031275E /* Supporting Files */,
+			);
+			path = "STRV Apple Watch HackathonTests";
+			sourceTree = "<group>";
+		};
+		2B8E39EE1AFE221C0031275E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E39EF1AFE221C0031275E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8E39D41AFE221C0031275E /* STRV Apple Watch Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E39F41AFE221C0031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon" */;
+			buildPhases = (
+				2B8E39D11AFE221C0031275E /* Sources */,
+				2B8E39D21AFE221C0031275E /* Frameworks */,
+				2B8E39D31AFE221C0031275E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STRV Apple Watch Hackathon";
+			productName = "STRV Apple Watch Hackathon";
+			productReference = 2B8E39D51AFE221C0031275E /* STRV Apple Watch Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8E39E91AFE221C0031275E /* STRV Apple Watch HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E39F71AFE221C0031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch HackathonTests" */;
+			buildPhases = (
+				2B8E39E61AFE221C0031275E /* Sources */,
+				2B8E39E71AFE221C0031275E /* Frameworks */,
+				2B8E39E81AFE221C0031275E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8E39EC1AFE221C0031275E /* PBXTargetDependency */,
+			);
+			name = "STRV Apple Watch HackathonTests";
+			productName = "STRV Apple Watch HackathonTests";
+			productReference = 2B8E39EA1AFE221C0031275E /* STRV Apple Watch HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8E39CD1AFE221C0031275E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Naim Ashhab";
+				TargetAttributes = {
+					2B8E39D41AFE221C0031275E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2B8E39E91AFE221C0031275E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2B8E39D41AFE221C0031275E;
+					};
+				};
+			};
+			buildConfigurationList = 2B8E39D01AFE221C0031275E /* Build configuration list for PBXProject "STRV Apple Watch Hackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8E39CC1AFE221C0031275E;
+			productRefGroup = 2B8E39D61AFE221C0031275E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8E39D41AFE221C0031275E /* STRV Apple Watch Hackathon */,
+				2B8E39E91AFE221C0031275E /* STRV Apple Watch HackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8E39D31AFE221C0031275E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E39E01AFE221C0031275E /* Main.storyboard in Resources */,
+				2B8E39E51AFE221C0031275E /* LaunchScreen.xib in Resources */,
+				2B8E39E21AFE221C0031275E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E39E81AFE221C0031275E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8E39D11AFE221C0031275E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E39DD1AFE221C0031275E /* ViewController.swift in Sources */,
+				2B8E39DB1AFE221C0031275E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E39E61AFE221C0031275E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E39F11AFE221C0031275E /* STRV_Apple_Watch_HackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8E39EC1AFE221C0031275E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8E39D41AFE221C0031275E /* STRV Apple Watch Hackathon */;
+			targetProxy = 2B8E39EB1AFE221C0031275E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B8E39DE1AFE221C0031275E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8E39DF1AFE221C0031275E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B8E39E31AFE221C0031275E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8E39E41AFE221C0031275E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8E39F21AFE221C0031275E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8E39F31AFE221C0031275E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8E39F51AFE221C0031275E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B8E39F61AFE221C0031275E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "STRV Apple Watch Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B8E39F81AFE221C0031275E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STRV Apple Watch HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STRV Apple Watch Hackathon.app/STRV Apple Watch Hackathon";
+			};
+			name = Debug;
+		};
+		2B8E39F91AFE221C0031275E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STRV Apple Watch HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STRV Apple Watch Hackathon.app/STRV Apple Watch Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8E39D01AFE221C0031275E /* Build configuration list for PBXProject "STRV Apple Watch Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E39F21AFE221C0031275E /* Debug */,
+				2B8E39F31AFE221C0031275E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8E39F41AFE221C0031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E39F51AFE221C0031275E /* Debug */,
+				2B8E39F61AFE221C0031275E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B8E39F71AFE221C0031275E /* Build configuration list for PBXNativeTarget "STRV Apple Watch HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E39F81AFE221C0031275E /* Debug */,
+				2B8E39F91AFE221C0031275E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8E39CD1AFE221C0031275E /* Project object */;
+}
